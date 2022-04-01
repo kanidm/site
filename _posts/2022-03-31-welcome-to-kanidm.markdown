@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Kanidm new website"
+title: Welcome to Kanidm new website
 date:   2022-03-31 16:03:25 +0430
 author: George Rose
 categories: website
