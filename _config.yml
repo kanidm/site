@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -22,15 +22,22 @@ title: Kanidm
 # email: info@kanidm.com
 description: >- # this means to ignore newlines until "baseurl:"
  Kanidm is a modern and simple identity management platform written in rust.
+
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+domain: kanidm.com       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://kanidm.com  # the base hostname and protocol for your site, e.g. http://example.com
 twitter_username: kanidmproject
 github_username:  kanidm
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+theme: jekyll-lin
+
+author: The Kanidm Team
+
+
+copyright: Kanidm Project
+# plugins:
+  # - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -40,18 +47,16 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-domain: kanidm.com       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://kanidm.com  # the base hostname and protocol for your site, e.g. http://example.com
-#baseurl: /folder/      # place folder name if the site is served in a subfolder
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
 
