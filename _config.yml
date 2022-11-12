@@ -28,14 +28,13 @@ domain: kanidm.com       # if you want to force HTTPS, specify the domain withou
 url: https://kanidm.com  # the base hostname and protocol for your site, e.g. http://example.com
 author: The Kanidm Team
 copyright: Kanidm Project
-twitter_username: kanidmproject
 github_username:  kanidm
 
 # Build settings
 theme: minima
 
-# plugins:
-  # - jekyll-feed
+plugins:
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
