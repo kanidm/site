@@ -7,24 +7,38 @@ layout: page
 </div>
 
 
-Kanidm is an identity management platform written in rust. 
+## About
 
-Our goals are:
+Kanidm is a simple and secure identity management platform, which provides services to allow
+other systems and application to authenticate against. The project aims for the highest levels
+of reliability, security and ease of use.
 
-* Be a modern identity management platform
-* Simple to deploy and integrate
-* Extensible for various needs
-* Correct and secure behaviour by default
+The goal of this project is to be a complete identity management provider, covering the broadest
+possible set of requirements and integrations. You should not need any other components (like Keycloak)
+when you use Kanidm. We want to create a project that will be suitable for everything
+from personal home deployments, to the largest enterprise needs.
 
-Today the project is still under [heavy development](https://github.com/kanidm/kanidm) to achieve these goals - We have many foundational parts in place, and many of the required security features, but it is still an Alpha, and should be
-treated as such.
+To achieve this we rely heavily on strict defaults, simple configuration, and self-healing components.
 
-<div>
-<h3>Latest Posts</h3>
-<ul>
+The project is still growing and some areas are developing at a fast pace. The core of the server
+however is reliable and we make all effort to ensure upgrades will always work.
+
+Kanidm supports:
+
+* OAuth2/OIDC Authentication provider for Web SSO
+* Read only LDAPS gateway
+* Linux/Unix integration (with offline authentication)
+* SSH key distribution to Linux/Unix systems
+* RADIUS for network authentication
+* Passkeys / Webauthn for secure cryptographic authentication
+* A self service web UI
+* Complete CLI tooling for administration
+
+If you want to host your own centralised authentication service, then Kanidm is for you!
+
+
+### Latest Posts
+
 {% for post in site.posts %}
-<li><a href="{{ post.url }}">{{ post.title }}</a> ({{post.date| date_to_string}})<!-- by {{post.author}} -->
-</li>
+  - [{{ post.title }}]({{ post.url }}) ({{post.date| date_to_string}})
 {% endfor %}
-</ul>
-</div>
