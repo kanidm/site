@@ -1,5 +1,5 @@
 ---
-name: Test Build Jekyll site
+name: Build and deploy Jekyll site
 
 "on":
   push:
