@@ -1,10 +1,9 @@
-
-
 # Testing locally
 
 I'm doing this in docker since macOS' Ruby is weird and broken.
 
 Grab the image:
+
 ```
 docker pull machines/jekyll
 ```
