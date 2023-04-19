@@ -23,7 +23,6 @@ update:
 		jekyll/jekyll \
 		bundle update
 
-
 .PHONY: format
 format: ## Format docs and the Kanidm book
 	find . -type f  -not -path './target/*' -not -path '*/.venv/*' \
