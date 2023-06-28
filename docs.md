@@ -4,8 +4,7 @@ title: Documentation
 permalink: /documentation/
 ---
 
-Documentation for Kanidm's available in two streams, the most recent release (stable) and most recent push to the development branch (latest). You can also see a list of the [previous versions here](https://kanidm.github.io/kanidm/).
-
+Documentation for Kanidm's available in two streams, the most recent release (stable) and most recent push to the development branch (latest). 
 
 For guidance on installing and using Kanidm, see the Kanidm Book. ([Latest](https://kanidm.github.io/kanidm/master/)) ([Stable](https://kanidm.github.io/kanidm/stable/)) 
 
