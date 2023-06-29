@@ -1,5 +1,6 @@
 .PHONY: help serve update
 
+MARKDOWN_FORMAT_ARGS ?= --options-line-width=100
 CONTAINER_TOOL ?= docker
 
 .DEFAULT: help
@@ -21,3 +22,15 @@ update:
 		--mount type=bind,source="$${PWD}",target=/srv/jekyll \
 		jekyll/jekyll \
 		bundle update
+
+.PHONY: format
+format: ## Format docs and the Kanidm book
+	find . -type f  -not -path './target/*' -not -path '*/.venv/*' \
+		-name \*.md \
+		-exec deno fmt --check $(MARKDOWN_FORMAT_ARGS) "{}" +
+
+.PHONY: format/fix
+format/fix: ## Fix docs and the Kanidm book
+	find . -type f  -not -path './target/*' -not -path '*/.venv/*' \
+		-name \*.md \
+		-exec deno fmt  $(MARKDOWN_FORMAT_ARGS) "{}" +

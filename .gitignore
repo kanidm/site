@@ -5,3 +5,11 @@ _site
 vendor
 .bundle/
 .git
+**/__pycache__/*
+venv/
+.vscode/
+.DS_Store
+config.py
+*.egg-info/
+dist/
+.env
