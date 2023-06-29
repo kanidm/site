@@ -4,7 +4,7 @@ title: Documentation
 permalink: /documentation/
 ---
 
-Documentation for Kanidm is available in two streams, the most recent release (stable) and most
+Documentation for Kanidm's available in two streams, the most recent release (stable) and most
 recent push to the development branch (latest).
 
 For guidance on installing and using Kanidm, see the Kanidm Book.
