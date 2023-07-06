@@ -15,21 +15,14 @@ For guidance on installing and using Kanidm, see the Kanidm Book.
 
 Below are links to rust documentation for the various Kanidm modules.
 
-| kanidmd | \[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/kanidmd/)\] |
-\[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/kanidmd/)\] | | kanidm_cli |
-\[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/kanidm_cli/)\] |
-\[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/kanidm_cli/)\] | | kanidm_client |
-\[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/kanidm_client/)\] |
-\[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/kanidm_cli/)\] | | kanidm_proto |
-\[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/kanidm_proto/)\] |
-\[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/kanidm_proto/)\] | | kanidm_unixd |
-\[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/kanidm_unixd/)\] |
-\[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/kanidm_unixd/)\] | | kanidm_unixd_tasks |
-\[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/kanidm_unixd_tasks/)\] |
-\[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/kanidm_unixd_tasks/)\] | | nss_kanidm |
-\[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/nss_kanidm/)\] |
-\[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/nss_kanidm/)\] | | orca |
-\[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/orca/)\] |
-\[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/orca/)\] | | pam_kanidm |
-\[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/pam_kanidm/)\] |
-\[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/pam_kanidm/)\] |
+| &nbsp; |  &nbsp; | &nbsp; | 
+| --- | --- | --- |
+| kanidmd | \[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/kanidmd/)\] | \[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/kanidmd/)\] | 
+| kanidm_cli | \[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/kanidm_cli/)\] | \[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/kanidm_cli/)\] |
+| kanidm_client | \[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/kanidm_client/)\] | \[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/kanidm_cli/)\] |
+| kanidm_proto | \[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/kanidm_proto/)\] | \[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/kanidm_proto/)\] |
+| kanidm_unixd | \[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/kanidm_unixd/)\] | \[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/kanidm_unixd/)\] |
+| kanidm_unixd_tasks | \[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/kanidm_unixd_tasks/)\] | \[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/kanidm_unixd_tasks/)\] |
+| nss_kanidm | \[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/nss_kanidm/)\] | \[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/nss_kanidm/)\] |
+| orca | \[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/orca/)\] | \[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/orca/)\] |
+| pam_kanidm | \[[Latest](https://kanidm.github.io/kanidm/master/rustdoc/pam_kanidm/)\] | \[[Stable](https://kanidm.github.io/kanidm/stable/rustdoc/pam_kanidm/)\] |
