@@ -10,5 +10,5 @@ permalink: /blog/
 
 {{post.excerpt}}
 
-Posted on {{post.date| date_to_string}} by {{post.author}}\
+Posted on {{post.date| date_to_string}} by {{post.author}}
 {% endfor %}
