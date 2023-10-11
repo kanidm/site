@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Documentation
-permalink: /documentation/
+aliases: ["/documentation/"]
 ---
 
 Documentation for Kanidm's available in two streams, the most recent release (stable) and most
