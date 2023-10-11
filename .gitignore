@@ -13,3 +13,4 @@ config.py
 *.egg-info/
 dist/
 .env
+public/
