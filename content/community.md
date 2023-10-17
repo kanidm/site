@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Community
-permalink: /community/
 ---
 
 ## Code of Conduct / Ethics

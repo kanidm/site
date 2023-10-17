@@ -1,0 +1,16 @@
+{% import "_macros.html" as macros %}
+{% extends "index.html" %}
+
+{% block title %}{{ page.title }} | {{ super() }} {% endblock title %}
+
+{% block header %}
+<header class="box-shadow">
+    {{ macros::render_header() }}
+</header>
+{% endblock header %}
+
+{% block content %}
+<h1>{{page.title}}</h1>
+<div class="heading-text">{{ page.description }}</div>
+{{ page.content | safe }}
+{% endblock content %}

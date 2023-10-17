@@ -1,9 +1,5 @@
 _site
 .sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-.bundle/
 .git
 **/__pycache__/*
 venv/
@@ -13,3 +9,4 @@ config.py
 *.egg-info/
 dist/
 .env
+public/

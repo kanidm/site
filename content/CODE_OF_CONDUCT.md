@@ -1,4 +1,6 @@
-# Code of Conduct
+---
+title: "Code of Conduct"
+---
 
 ## Our Pledge
 
@@ -50,6 +52,7 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 the project team at:
 
 - william at blackhats.net.au
+- james at terminaloutcomes.com
 - charcol at redhat.com
 
 All complaints will be reviewed and investigated and will result in a response that is deemed
@@ -63,4 +66,4 @@ temporary or permanent repercussions as determined by other members of the proje
 ## Attribution
 
 This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at
-https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+<https://www.contributor-covenant.org/version/1/4/code-of-conduct.html>
