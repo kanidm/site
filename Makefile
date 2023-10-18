@@ -9,4 +9,5 @@ help:
 
 .PHONY: serve
 serve: ## Use zola in "serve" mode
-serve: zola serve
+serve:
+	zola serve

@@ -20,11 +20,11 @@ ul {
   margin-top: 0.5rem;
 }
 
-ul > li {
+ul>li {
   padding: 0.3rem 0;
 }
 
-p > img {
+p>img {
   width: 100%;
   height: auto;
 }
@@ -101,7 +101,8 @@ main {
     color: #424242;
   }
 
-  .toc-item a, .toc-item-child a {
+  .toc-item a,
+  .toc-item-child a {
     color: var(--secondary-text-color);
 
     &:hover {
@@ -110,7 +111,8 @@ main {
     }
   }
 
-  .toc-item a.active, .toc-item-child a.active {
+  .toc-item a.active,
+  .toc-item-child a.active {
     color: var(--toc-highlight-text-color);
   }
 
@@ -158,9 +160,15 @@ footer {
   }
 }
 
+
+.hero-image {
+  margin: 1.0em;
+}
+
 @media screen and (max-width: 768px) {
   header {
-    padding: 10px 30px;
+    padding: 10px 10px;
+    font-size: 1.0em;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -182,7 +190,26 @@ footer {
   }
 
   .hero {
-    padding: 40px 30px;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+
+  .hero section {
+    padding: 0 0.5rem;
+  }
+
+  .hero section h3 {
+    font-size: 1.0em;
+  }
+
+  .hero-image {
+    display: none
+  }
+
+  .hero-github {
+    display: none
   }
 
   main {
@@ -193,7 +220,8 @@ footer {
     padding: 0;
   }
 
-  .explore-more, .toc {
+  .explore-more,
+  .toc {
     display: none;
   }
 

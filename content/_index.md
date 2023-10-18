@@ -19,22 +19,24 @@ If you want to host your own authentication service, then Kanidm is for you!
 ## Features
 
 - Webauthn (passkeys) for secure cryptographic authentication
-- Oauth2/OIDC Authentication provider for web SSO
-- Oauth Application Portal/Gateway allowing easy access to linked applications
-- Linux/Unix integration with offline authentication
-- SSH key distribution to Linux/Unix systems
+- OAuth2/OIDC Authentication provider for web SSO
+- OAuth Application Portal/Gateway allowing easy access to linked applications
+- Linux/UNIX integration with offline authentication
+- SSH key distribution to Linux/UNIX systems
 - RADIUS for network and VPN authentication
 - Read only LDAPS gateway for Legacy Systems
 - Complete CLI tooling for Administration
-- User Self Service the WebUI
+- User Self Service via the WebUI
 
-## Documentation / Getting Started / Install
+## Documentation / Getting Started / Support
 
 If you want to read more about what Kanidm can do, you should [read our documentation](https://kanidm.github.io/kanidm/stable/).
 
+A quick [getting start guide](https://kanidm.github.io/kanidm/stable/quickstart.html) is available.
+
 We also have a set of
 [support guidelines](https://github.com/kanidm/kanidm/blob/master/project_docs/RELEASE_AND_SUPPORT.md)
-for what the project team will support
+for what the project team will support.
 
 ## Code of Conduct / Ethics
 
@@ -42,7 +44,7 @@ All interactions with the project are covered by our [code of conduct](/code-of-
 
 When we develop features we follow our projects guidelines on [rights and ethics](https://github.com/kanidm/kanidm/blob/master/project_docs/ethics/README.md).
 
-## Getting in Contact / Questions
+## Getting in Contact
 
 We have a [Gitter community channel](https://gitter.im/kanidm/community) where project members are always happy to answer questions.
 
