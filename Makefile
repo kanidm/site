@@ -6,3 +6,7 @@ CONTAINER_TOOL ?= docker
 .DEFAULT: help
 help:
 	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##/\n\t/'
+
+.PHONY: serve
+serve: ## Use zola in "serve" mode
+serve: zola serve
