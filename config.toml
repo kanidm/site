@@ -1,4 +1,4 @@
-base_url = "kanidm.com"
+base_url = "https://kanidm.com"
 
 title = "Kanidm"
 description = "Kanidm is a modern and simple identity management platform written in rust."
@@ -88,9 +88,9 @@ paths_keep_dates = false
 juice_logo_name = "Kanidm"
 juice_logo_path = "images/logo.svg"
 juice_extra_menu = [
-    { title = "Install", link = "https://kanidm.github.io/kanidm/stable/quickstart.html"},
-    { title = "Blog", link = "/blog/"},
-    { title = "Github", link = "https://github.com/kanidm/kanidm"},
+    { title = "Install", link = "https://kanidm.github.io/kanidm/stable/quickstart.html" },
+    { title = "Blog", link = "/blog/" },
+    { title = "Github", link = "https://github.com/kanidm/kanidm" },
 ]
 juice_exclude_menu = [
     "Code of Conduct",
