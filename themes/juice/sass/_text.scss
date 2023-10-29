@@ -6,11 +6,12 @@
   color: var(--primary-text-color);
 }
 
-div.logo{
+div.logo {
   color: var(--nav-text-color);
 }
 
-h1, .title-text {
+h1,
+.title-text {
   font-family: var(--header-font-family);
   font-size: 25px;
   font-weight: 500;
@@ -19,7 +20,8 @@ h1, .title-text {
   padding-left: 10px;
 }
 
-h2, .subtitle-text {
+h2,
+.subtitle-text {
   font-family: var(--header-font-family);
   font-size: 20px;
   font-weight: 500;
@@ -40,4 +42,5 @@ h2, .subtitle-text {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.1px;
+  text-decoration: none;
 }

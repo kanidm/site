@@ -13,7 +13,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: dotted underline;
 }
 
 ul {
@@ -36,6 +36,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-decoration: none;
+}
+
+header a {
+  text-decoration: none;
+
 }
 
 .logo {
