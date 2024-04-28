@@ -35,14 +35,14 @@ If you want to read more about what Kanidm can do, you should [read our document
 A quick [getting start guide](https://kanidm.github.io/kanidm/stable/quickstart.html) is available.
 
 We also have a set of
-[support guidelines](https://github.com/kanidm/kanidm/blob/master/project_docs/RELEASE_AND_SUPPORT.md)
+[support guidelines](https://kanidm.github.io/kanidm/master/support.html)
 for what the project team will support.
 
 ## Code of Conduct / Ethics
 
 All interactions with the project are covered by our [code of conduct](/code-of-conduct/).
 
-When we develop features we follow our projects guidelines on [rights and ethics](https://github.com/kanidm/kanidm/blob/master/project_docs/ethics/README.md).
+When we develop features we follow our projects guidelines on [rights and ethics](https://kanidm.github.io/kanidm/master/developers/developer_ethics.html).
 
 ## Getting in Contact
 
