@@ -133,11 +133,11 @@ main {
   border-radius: 3px;
   border-top: 5px solid var(--primary-color);
   background-color: var(--toc-background-color);
-  position: sticky;
   position: -webkit-sticky;
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky;
+  position: sticky;
   top: 10px;
   padding: 10px 0 20px;
   max-height: 100vh;
@@ -168,6 +168,7 @@ footer {
 
 
 .hero-image {
+  width: 50%;
   margin: 1.0em;
 }
 
