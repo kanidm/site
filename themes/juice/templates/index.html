@@ -34,7 +34,8 @@
 
         <div class="hero">
             {% block hero %}
-            <script async defer src="https://buttons.github.io/buttons.js"></script>
+            <script async defer
+                src="https://buttons.github.io/buttons.js"></script>
             <section class="text-center">
                 <!-- <h1 class="heading-text">
                 Kanidm
@@ -54,13 +55,8 @@
                         aria-label="Fork kanidm/kanidm on GitHub">Fork</a>
                 </div>
             </section>
-            <img class="hero-image" alt="Kanidm Logo" style="width: 50%"
+            <img class="hero-image" alt="Kanidm Logo"
                 src="{{ get_url(path="images/logo.svg") }}">
-
-            <!-- <div class="explore-more text"
-            onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
-            Explore More ⇩
-        </div> -->
             <style>
 
 
@@ -88,7 +84,8 @@
                     {% if h.children %}
                     {% for h2 in h.children %}
                     <div class="toc-item-child">
-                        <a class="subtext" href="{{h2.permalink | safe}}"><small>-
+                        <a class="subtext"
+                            href="{{h2.permalink | safe}}"><small>-
                                 {{ h2.title }}</small></a>
                     </div>
                     {% endfor %}
@@ -101,7 +98,7 @@
 
             <div class="content text">
                 {% block content %}
-                <div id="features" class="heading-text">Welcome!</div>
+                <div id="heading" class="heading-text">Welcome!</div>
                 {{ section.content | safe }}
                 {% endblock content %}
             </div>
