@@ -42,12 +42,12 @@ addition of entries (your results may differ however, but generally Kanidm is mu
 
 ## Keycloak
 
-[Keycloak](https://keycloak.org) is an OIDC/Oauth2/SAML provider. It allows you to layer on Webauthn to existing IDM
+[Keycloak](https://keycloak.org) is an OIDC/OAuth2/SAML provider. It allows you to layer on Webauthn to existing IDM
 systems. Keycloak can operate as a stand alone IDM but generally is a component attached to an existing LDAP server or
 similar.
 
 Keycloak requires a significant amount of configuration and experience to deploy. It allows high levels of customisation
 to every detail of it's authentication work flows, which makes it harder to start with in many cases.
 
-Kanidm does NOT require Keycloak to provide services such as Oauth2 and integrates many of the elements in a simpler and
+Kanidm does NOT require Keycloak to provide services such as OAuth2 and integrates many of the elements in a simpler and
 correct way out of the box in comparison.
