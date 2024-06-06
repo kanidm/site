@@ -8,7 +8,7 @@ title: Community
 See our [code of conduct](https://github.com/kanidm/kanidm/blob/master/CODE_OF_CONDUCT.md)
 
 See our documentation on
-[rights and ethics](https://github.com/kanidm/kanidm/blob/master/project_docs/ethics/README.md)
+[rights and ethics](https://kanidm.github.io/kanidm/master/developers/developer_ethics.html)
 
 ## Source code
 
@@ -31,4 +31,3 @@ made Kanidm the success that it is today.
 William is a Senior Software Engineer at SUSE Labs, Australia. His work at SUSE has enabled him to
 continue to invest in Kanidm and related identity and security technologies such as Webauthn, TPMs,
 LDAP, and OpenID/OAuth2.
-
