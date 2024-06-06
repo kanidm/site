@@ -18,9 +18,11 @@ jobs:
       - uses: taiki-e/install-action@v2
         with:
           tool: zola@0.17.2
+      - name: Check content and links
+        run: |
+          zola check
       - name: Build
         run: |
-          find .
           zola build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
