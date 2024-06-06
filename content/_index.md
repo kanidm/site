@@ -32,7 +32,7 @@ If you want to host your own authentication service, then Kanidm is for you!
 
 If you want to read more about what Kanidm can do, you should [read our documentation](https://kanidm.github.io/kanidm/stable/).
 
-A quick [getting start guide](https://kanidm.github.io/kanidm/stable/quickstart.html) is available.
+A quick [getting start guide](https://kanidm.github.io/kanidm/stable/evaluation_quickstart.html) is available.
 
 We also have a set of
 [support guidelines](https://kanidm.github.io/kanidm/master/support.html)
