@@ -18,7 +18,7 @@ jobs:
       - name: Install zola
         uses: taiki-e/install-action@v2
         with:
-          tool: zola@0.18.0
+          tool: zola@0.19.1
       - name: Install Deno
         uses: denoland/setup-deno@v1
         with:
