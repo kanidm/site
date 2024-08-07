@@ -29,7 +29,3 @@ deno/apply: ## Apply the deno suggestions
 check: ## Lint the things
 check: codespell deno/check
 	zola check
-
-.PHONY: serve
-serve: ## Serve the site
-	zola serve
