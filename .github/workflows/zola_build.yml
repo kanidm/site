@@ -20,7 +20,7 @@ jobs:
         with:
           tool: zola@0.19.1
       - name: Install Deno
-        uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@v2
         with:
           deno-version: vx.x.x
       - name: Check content and links
