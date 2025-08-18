@@ -19,11 +19,17 @@ codespell:
 
 .PHONY: deno/check
 deno/check: ## Check the deno lints
-	deno fmt --check --ignore=themes/juice/ --line-width=120
+	deno fmt --check \
+		--ignore=themes/juice/ \
+		--ignore=static/ \
+		--line-width=120
 
 .PHONY: deno/apply
 deno/apply: ## Apply the deno suggestions
-	deno fmt --ignore=themes/juice/ --line-width=120
+	deno fmt \
+		--ignore=themes/juice/ \
+		--ignore=static/ \
+		--line-width=120
 
 .PHONY: check
 check: ## Lint the things
