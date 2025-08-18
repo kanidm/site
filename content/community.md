@@ -15,8 +15,8 @@ Check out the source on [Github](https://github.com/kanidm/).
 
 ## Getting in Contact / Questions
 
-We have a [gitter community channel](https://app.gitter.im/#/room/#kanidm_community:gitter.im) where we can talk. Firstyear is also happy to
-answer questions via email, which can be found on their GitHub profile.
+We have a [gitter community channel](https://app.gitter.im/#/room/#kanidm_community:gitter.im) where we can talk.
+Firstyear is also happy to answer questions via email, which can be found on their GitHub profile.
 
 ## The Project
 
