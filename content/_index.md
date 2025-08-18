@@ -45,10 +45,10 @@ When we develop features we follow our projects guidelines on
 
 ## Getting in Contact
 
-We have a [Gitter community channel](https://gitter.im/kanidm/community) where project members are always happy to
-answer questions.
+We have a [Gitter community channel](https://app.gitter.im/#/room/#kanidm_community:gitter.im) where project members are
+always happy to answer questions.
 
-Alternately you can open a new [Github discussion](https://github.com/kanidm/kanidm/discussions).
+Alternately you can open a new [GitHub discussion](https://github.com/kanidm/kanidm/discussions).
 
 ## What does Kanidm mean?
 
