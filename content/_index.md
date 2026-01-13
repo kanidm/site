@@ -55,7 +55,7 @@ Alternately you can open a new [GitHub discussion](https://github.com/kanidm/kan
 Kanidm is a portmanteau of 'Kani' and 'IDM'. Kani is Japanese for crab, related to Rust's mascot ferris the crab.
 identity management is often abbreviated to 'IDM', and is a common industry term for these services.
 
-Kanidm is pronounced as "kar - nee - dee - em".
+Kanidm is pronounced as "kar - nee - dee - em". (Because the original developer is Australian)
 
 ## How does Kanidm compare to other similar services?
 
