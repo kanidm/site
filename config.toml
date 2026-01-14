@@ -20,13 +20,13 @@ minify_html = false
 
 
 # When set to "true", a feed is automatically generated.
-generate_feeds = true
+generate_feeds = false
 
 
 # The filename to use for the feed. Used as the template filename, too.
 # Defaults to "atom.xml", which has a built-in template that renders an Atom 1.0 feed.
 # There is also a built-in template "rss.xml" that renders an RSS 2.0 feed.
-feed_filenames = ["rss.xml"]
+# feed_filenames = ["rss.xml"]
 
 
 # When set to "true", files in the `static` directory are hard-linked. Useful for large
@@ -89,7 +89,7 @@ juice_logo_name = "Kanidm"
 juice_logo_path = "images/logo.svg"
 juice_extra_menu = [
     { title = "Install", link = "https://kanidm.github.io/kanidm/stable/evaluation_quickstart.html" },
-    { title = "Blog", link = "/blog/" },
+    # { title = "Blog", link = "/blog/" },
     { title = "Github", link = "https://github.com/kanidm/kanidm" },
 ]
 juice_exclude_menu = [
