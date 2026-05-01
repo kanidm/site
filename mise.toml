@@ -1,0 +1,18 @@
+[tools]
+uv = "latest"
+zola = "latest"
+
+[tasks.codespell]
+run = '''find . -not -path './themes/*' -name '*.md' -exec uvx codespell "{}" \;'''
+
+[tasks.deno-fmt]
+run = "deno fmt --check --ignore=themes/juice/ --ignore=static/ --line-width=120"
+
+[tasks.zola-check]
+run = "zola check"
+
+[tasks.check]
+depends = ["codespell", "deno-fmt", "zola-check"]
+
+[tasks.build]
+run = "zola build"
