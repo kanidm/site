@@ -10,7 +10,7 @@ run = '''find . -not -path './themes/*' -name '*.md' -exec uvx codespell "{}" \;
 run = "deno fmt --check --ignore=themes/juice/ --ignore=static/ --line-width=120"
 
 [tasks.zola-check]
-run = "zola check"
+run = "zola check --skip-external-links"
 
 [tasks.check]
 depends = ["codespell", "deno-fmt", "zola-check"]
