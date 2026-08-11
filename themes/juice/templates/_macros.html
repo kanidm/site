@@ -1,4 +1,4 @@
-{% macro render_header() %}
+{% component render_header(config: map) %}
 {% set section = get_section(path="_index.md") %}
 <a href="{{ section.permalink | safe }}">
     <div class="logo">
@@ -15,9 +15,9 @@
     {% endif %}
     {% for page in section.pages %}
     {% set exclude_menu = config.extra.juice_exclude_menu | default(value=[]) %}
-    {% if exclude_menu is not containing(page.title) %}
+    {% if exclude_menu is not containing(pat=page.title) %}
     <a class="nav-item subtitle-text" href="{{ page.permalink }}">{{ page.title }}</a>
     {% endif %}
     {% endfor %}
 </nav>
-{% endmacro render_header %}
+{% endcomponent render_header %}
