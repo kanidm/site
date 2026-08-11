@@ -1,7 +1,7 @@
 [tools]
 deno = "latest"
 uv = "latest"
-zola = "latest"
+zola = "0.23.2"
 
 [tasks.codespell]
 run = '''find . -not -path './themes/*' -name '*.md' -exec uvx codespell "{}" \;'''
