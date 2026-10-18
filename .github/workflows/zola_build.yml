@@ -16,7 +16,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v6
       - name: Install mise
-        uses: jdx/mise-action@v5.1.1
+        uses: jdx/mise-action@v5.1.2
       - name: Check content and links
         run: |
           mise check
